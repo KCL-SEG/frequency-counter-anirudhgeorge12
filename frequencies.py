@@ -8,7 +8,7 @@ def frequencies(items):
     for k in items:
         item = str(k)
         if item not in items:
-            frequencies[k] = 1
+            frequencies[item] = 1
         else:
-            frequencies[k] += 1
+            frequencies[item] += 1
     return frequencies
