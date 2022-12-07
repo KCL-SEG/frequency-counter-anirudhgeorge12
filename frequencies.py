@@ -6,8 +6,8 @@ def frequencies(items):
     # Your code goes here
     
     for k in items:
-        itemsList = str(items)
-        if k not in itemsList:
+        item = str(k)
+        if item not in items:
             frequencies[k] = 1
         else:
             frequencies[k] += 1
