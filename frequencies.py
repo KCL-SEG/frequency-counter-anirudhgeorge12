@@ -4,8 +4,9 @@
 def frequencies(items):
     frequencies = {}
     # Your code goes here
-    itemsList = str(items)
+    
     for k in items:
+        itemsList = str(items)
         if k not in itemsList:
             frequencies[k] = 1
         else:
