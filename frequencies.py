@@ -7,7 +7,7 @@ def frequencies(items):
     
     for k in items:
         item = str(k)
-        if item not in items:
+        if item not in frequencies.keys():
             frequencies[item] = 1
         else:
             frequencies[item] += 1
